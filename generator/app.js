@@ -7,7 +7,7 @@ const im = require('imagemagick');
 const PNG = require('pngjs').PNG;
 var artoolkit_wasm_url = './libs/NftMarkerCreator_wasm.wasm';
 var Module = require('./libs/NftMarkerCreator_wasm.js');
-
+console.log("yeah");
 // GLOBAL VARs
 var params = [
 ];
